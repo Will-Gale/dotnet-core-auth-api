@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\dotnet-core-auth-api.props" />
-</Project>
