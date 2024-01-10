@@ -1,0 +1,4 @@
+.vs/
+bin/
+obj/
+dotnet-core-auth-api/bin/
