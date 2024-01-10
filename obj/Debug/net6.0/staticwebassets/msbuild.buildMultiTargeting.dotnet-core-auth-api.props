@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\dotnet-core-auth-api.props" />
+</Project>
