@@ -2,7 +2,7 @@
  
 
 
-THis .NET Core Authentication API was created to be consumed by a Vue.js and Tailwindcss frontend. 
+This .NET Core Authentication API was created to be consumed by a Vue.js and Tailwindcss frontend. 
 
 ~
 ~
@@ -24,29 +24,29 @@ Secure Password Hashing
 
 Prerequisites:
 
-.NET Core 3.1 SDK (or later)
-Entity Framework Core (for database operations)
-Any SQL database (the project is configured for SQL Server by default)
+- .NET Core 3.1 SDK (or later)
+- Entity Framework Core (for database operations)
+- Any SQL database (the project is configured for SQL Server by default)
 
 # Installation
 
 Clone the repository:
-git clone https://github.com/[your-username]/dotnet-core-auth-api.git
+- git clone https://github.com/[your-username]/dotnet-core-auth-api.git
 
 
 Navigate to the project directory:
-cd dotnet-core-auth-api
+- cd dotnet-core-auth-api
 
 Restore the necessary packages:
-dotnet restore
+- dotnet restore
 
-Update the database connection string in appsettings.json to point to your SQL database.
+- Update the database connection string in appsettings.json to point to your SQL database.
 
 Run database migrations (Ensure your database server is running):
-dotnet ef database update
+- dotnet ef database update
 
 Start the API:
-dotnet run
+- dotnet run
 
 # Usage
 
@@ -64,8 +64,8 @@ Once the API is running, you can perform the following actions:
 
 List of available endpoints:
 
-POST /api/Auth/Register: Register a new user.
-POST /api/Auth/Login: Authenticate a user and receive a token.
-POST /api/Auth/refresh-token: Refresh an existing JWT.
-GET /api/Auth: Fetch all registered users (requires authorization).
+- POST /api/Auth/Register: Register a new user.
+- POST /api/Auth/Login: Authenticate a user and receive a token.
+- POST /api/Auth/refresh-token: Refresh an existing JWT.
+- GET /api/Auth: Fetch all registered users (requires authorization).
 
