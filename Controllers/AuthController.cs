@@ -15,8 +15,6 @@ namespace dotnet_core_auth_api.Controllers
     public class AuthController : Controller
     {
 
-        //private static User user = new User(); old initial version
-
         private static User user = new User();
 
         private readonly IHttpContextAccessor _httpContextAccessor;
@@ -30,7 +28,7 @@ namespace dotnet_core_auth_api.Controllers
             _httpContextAccessor = httpContextAccessor;
         }
 
-        [HttpGet, Authorize]//(Roles = "True")] //How to call to functionality checking which role someone is in
+        [HttpGet, Authorize]
         public async Task<ActionResult<List<User>>> Get()
         {
             return Ok(await liftxrDB.Users.ToListAsync());
