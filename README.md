@@ -13,12 +13,12 @@ This project is a .NET Core Web API designed to handle user authentication and m
 
 # Features
 
--User Registration
--User Login
--JWT Authentication
--Refresh Token Mechanism
--Role-based Authorization (commented, for future implementation)
-Secure Password Hashing
+- User Registration
+- User Login
+- JWT Authentication
+- Refresh Token Mechanism
+- Role-based Authorization (commented, for future implementation)
+- Secure Password Hashing
 
 # Getting Started
 
