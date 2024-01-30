@@ -9,6 +9,7 @@ This .NET Core Authentication API was created to be consumed by a Vue.js and Tai
 ~
 ~
 ~
+~
 
 # Description
 This project is a .NET Core Web API designed to handle user authentication and management. It demonstrates the implementation of JWT (JSON Web Tokens) for secure API access, alongside robust user registration and login functionalities. The API also showcases best practices in handling password security and refresh tokens.
