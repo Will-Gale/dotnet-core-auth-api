@@ -4,7 +4,6 @@
 
 
 
-
 This .NET Core Authentication API was created to be consumed by a Vue.js and Tailwindcss frontend. 
 
 ~
